@@ -1,0 +1,50 @@
+site_name: Project BoxBase
+site_description: The open TV Box knowledge database.
+
+theme:
+  name: material
+
+  language: en
+
+  logo: images/boxbase.svg
+  favicon: images/boxbase.png
+
+  palette:
+
+    - scheme: slate
+      primary: blue grey
+      accent: light blue
+      toogle:
+        icon: material/weather-night
+        name: White Theme
+
+    - scheme: default
+      primary: blue grey
+      accent: blue
+      toogle:
+        icon: material/weather-sunny
+        name: Dark Theme
+
+  features:
+
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+
+    - search.highlight
+    - search.share
+    - search.suggest
+
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+

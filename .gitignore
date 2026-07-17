@@ -1,0 +1,21 @@
+ # Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+
+# MkDocs generated site
+site/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# JetBrains
+.idea/
