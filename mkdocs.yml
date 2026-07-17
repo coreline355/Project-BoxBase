@@ -1,5 +1,6 @@
 site_name: Project BoxBase
 site_description: The open TV Box knowledge database.
+site_url: https://coreline.github.io/Project-BoxBase/
 
 theme:
   name: material
