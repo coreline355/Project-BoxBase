@@ -1,6 +1,8 @@
 site_name: Project BoxBase
 site_description: The open TV Box knowledge database.
 site_url: https://coreline.github.io/Project-BoxBase/
+repo_url: https://github.com/coreline355/Project-BoxBase
+repo_name: coreline355/Project-BoxBase
 
 theme:
   name: material
@@ -15,14 +17,14 @@ theme:
     - scheme: slate
       primary: blue grey
       accent: light blue
-      toogle:
+      toggle:
         icon: material/weather-night
         name: White Theme
 
     - scheme: default
       primary: blue grey
       accent: blue
-      toogle:
+      toggle:
         icon: material/weather-sunny
         name: Dark Theme
 
@@ -42,10 +44,17 @@ theme:
 plugins:
   - search
 
+exclude_docs: includes/**
+
 markdown_extensions:
 
   - admonition
   - tables
   - toc:
       permalink: true
+
+  - pymdownx.snippets:
+      base_path:
+        - docs
+        - includes
 

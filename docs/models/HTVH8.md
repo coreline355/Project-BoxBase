@@ -1,5 +1,7 @@
 # HTV H8
 
+
+
 !!! warning
 
     The page for this device is incomplete. Be a contributor and help complete this page and many other incomplete pages on the BaseBox Project. Info in this page is not 100% acurrate.
@@ -10,9 +12,7 @@
 
 ### System Info
 
-This model have a Android-Based firmware. This allows for further user customization, such as installing apps, modifying the UI, etc.
-
-But also frequently features GMS. Wich is recommended to disable/uninstall. Because most android TV Boxes have very low-end hardware, and Google aims to block apk installing.
+--8<-- "includes/android.system.info.md"
 
 ## Specifications
 

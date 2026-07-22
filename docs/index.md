@@ -1,4 +1,4 @@
-# Project BoxBase Home
+# Home
 
 **Bringing TV Box info to a Unified Place.**
 
@@ -23,8 +23,6 @@ BoxBase is a very new wiki. With a growing index of documented devices. Please h
 | Period    | Documented Devices | Complete Documentations | Incomplete Documentations |
 | --------- | ------------------ | ----------------------- | ------------------------- |
 | July 2026 | 5                  | 3                       | 2                         |
-
-
 
 ### Credits
 
