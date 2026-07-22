@@ -46,6 +46,9 @@ plugins:
 
 exclude_docs: includes/**
 
+extra_files:
+  - google67c6a94ae3346584.html
+
 markdown_extensions:
 
   - admonition
