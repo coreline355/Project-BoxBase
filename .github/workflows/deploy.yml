@@ -21,4 +21,8 @@ jobs:
 
       - run: pip install mkdocs-material
 
+      - run: mkdocs build
+
+      - run: cp google67c6a94ae3346584.html site/google67c6a94ae3346584.html
+
       - run: mkdocs gh-deploy --force
